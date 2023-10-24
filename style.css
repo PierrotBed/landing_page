@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+
+body {padding: 0 100px;}
+
+.header {display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.sword {width: 150px;}
+
+ul {display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+li {list-style-type: none;}
