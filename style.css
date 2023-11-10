@@ -2,6 +2,7 @@
 
 body {margin: 0;}
 
+/* header */
 a {text-decoration: none;
 color: black;}
 
@@ -32,6 +33,7 @@ justify-content: space-between;
 align-items: center;}
 
 
+/* info three pics */
 .un {font-size: 40px;
 font-weight: bold;
 margin-bottom: 0;
@@ -46,9 +48,12 @@ font-size: 20px;
 color: white;
 background-color: rgb(31, 29, 24);
 padding:5px;
-border: 0;}
+border: 0;
+box-shadow: 0 0 2px black;}
+button:hover {color: rgb(199, 199, 199);}
 
-.women {width: 200px;
+.women {width: 250px;
+    clip-path: inset(3px);
 margin-left: 30px;}
 
 .infoknights {display: flex;
@@ -81,3 +86,19 @@ height: 150px;
 border: 2px black solid;
 box-shadow: 0 0 2px black;
 }
+
+/* quote section */
+.quotesection {background-color: rgb(201, 201, 201);
+padding: 50px 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-direction: column;
+text-align: justify;
+font-size: 30px;}
+
+.author {align-self: flex-end;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
